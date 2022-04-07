@@ -14,10 +14,10 @@ public interface PriorityQueue<E extends Comparable<E>> {
 		// pre: value is non-null comparable
 		// post: value is added to priority queue
 		
-	//public boolean isEmpty();
+	public boolean isEmpty();
 		// post: returns true iff no elements are in queue
 		
-	//public int size();
+	public int size();
 		// post: returns number of elements within queue
 		
 	public void clear();

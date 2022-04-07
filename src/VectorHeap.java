@@ -4,6 +4,26 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E> {
 	
 	protected Vector<E> data; // the data, kept in heap order
 
+		
+	public boolean isEmpty() {  // agregando metodo para determinar si el vector heap esta vacio
+		
+		boolean val;
+		
+		if(data.isEmpty()) {
+			val = true;
+			
+		}else {
+			 val = false;
+		}
+		
+		return val;
+	}
+	
+	public int size() {  // agregando metodo para determinar cuantos elementos contiene el vector heap
+		
+		return data.size();
+		
+	}
 	
 	
 	public E getFirst()
